@@ -1,5 +1,5 @@
 library(readxl)
-VINO_BLANCO_MEDIAS <- read_excel("~/Trabajo Estadistica/VINO BLANCO MEDIAS.xlsx")
+VINO_BLANCO_MEDIAS <- read_excel("Datos.xlsx")
 View(VINO_BLANCO_MEDIAS)
 attach(VINO_BLANCO_MEDIAS)
 summary(VINO_BLANCO_MEDIAS) #Resumen de los datos
@@ -33,7 +33,7 @@ resumen_estadistico<-basicStats(VINO_BLANCO_MEDIAS[,-1])
 resumen_estadistico
 resumen_estadistico<-basicStats(VINO_BLANCO_MEDIAS[,-1])
 library(readxl)
-VINO_TINTO_MEDIAS <- read_excel("~/Trabajo Estadistica/VINO TINTO MEDIAS.xlsx")
+VINO_TINTO_MEDIAS <- read_excel("Datos.xlsx")
 View(VINO_TINTO_MEDIAS)
 attach(VINO_BLANCO_MEDIAS)
 str(VINO_TINTO_MEDIAS) # Estructura de los datos
